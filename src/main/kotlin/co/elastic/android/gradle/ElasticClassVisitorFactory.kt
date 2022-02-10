@@ -12,16 +12,12 @@ import java.util.logging.Logger
 abstract class ElasticClassVisitorFactory: AsmClassVisitorFactory<InstrumentationParameters.None> {
 
     override fun createClassVisitor(classContext: ClassContext, nextClassVisitor: ClassVisitor): ClassVisitor {
-        val classReader = ClassReader(classContext.currentClassData.className)
-        val classWriter = ClassWriter(classReader, ClassReader.EXPAND_FRAMES)
-        val visitor = AddMethodVisitor(classWriter)
-        classReader.accept(visitor, 0)
-        return classWriter
+        println("this is the one: "+ classContext.currentClassData.className)
+        return AddMethodVisitor(nextClassVisitor)
     }
 
     override fun isInstrumentable(classData: ClassData): Boolean {
-
-        if (classData.className == "androidx.fragment.app.FragmentActivity") {
+        if (classData.className == "androidx.appcompat.app.AppCompatActivity") {
             println(classData.className)
             return true
         }

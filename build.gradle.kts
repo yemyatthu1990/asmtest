@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "co.elastic.android.gradle"
-version = "0.15"
+version = "0.39"
 
 repositories {
     mavenCentral()

@@ -13,7 +13,7 @@ class AddMethodVisitor(private val classVisitor: ClassVisitor) : ClassVisitor(AS
         signature: String?,
         exceptions: Array<out String>?
     ): MethodVisitor {
-        if (name?.contains("androidx/activity/ComponentActivity") == true && descriptor?.contains("onCreate") == true) {
+        if (name == "onCreate") {
             var mv = classVisitor.visitMethod(access, name, descriptor, signature, exceptions)
             mv = TraceMethodAdapter(ASM9, mv, access, name, descriptor)
             return mv

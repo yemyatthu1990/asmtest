@@ -3,7 +3,7 @@
   "component": {
     "group": "co.elastic.android.gradle",
     "module": "ElasticsInstrumentationExample",
-    "version": "0.15",
+    "version": "0.39",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -20,20 +20,20 @@
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "files": [
         {
-          "name": "ElasticsInstrumentationExample-0.15.jar",
-          "url": "ElasticsInstrumentationExample-0.15.jar",
-          "size": 10483,
-          "sha512": "386b581a85c4198bdbd93c727745d605eb293e6fe2ae5c4343e63fdda27ca20917d178031abe4a58b88f797d9e843df40d452c2c263e2132af72e991f2bc2a09",
-          "sha256": "be89ec9e06aadd3a9a62752cc45faf8797d0bcd3d069c7514ed15854135a253a",
-          "sha1": "0643213eb7b4e2ce2e0e09509fb90bba00aa1429",
-          "md5": "13cf033bfe17be1752fdf06e74cbbb72"
+          "name": "ElasticsInstrumentationExample-0.39.jar",
+          "url": "ElasticsInstrumentationExample-0.39.jar",
+          "size": 10394,
+          "sha512": "eb4f9dfa95f85a42d1b386d30f2d81cf8f88a0e06427a0de708206d237e2587a9ac9747814ff32614b499ce13169c7169af7ba81adbb9bcf77475df39abc9f2b",
+          "sha256": "6e2b376c248c65746cbd563b432d08f2e758034f5657470cd53bd8ece78aea35",
+          "sha1": "3a2cd52e4882fa793a9c5f875263dd340dceaa47",
+          "md5": "938fef926be098e4efc82ee7eaab12a1"
         }
       ]
     },
@@ -43,7 +43,7 @@
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime",
         "org.jetbrains.kotlin.platform.type": "jvm"
@@ -66,13 +66,13 @@
       ],
       "files": [
         {
-          "name": "ElasticsInstrumentationExample-0.15.jar",
-          "url": "ElasticsInstrumentationExample-0.15.jar",
-          "size": 10483,
-          "sha512": "386b581a85c4198bdbd93c727745d605eb293e6fe2ae5c4343e63fdda27ca20917d178031abe4a58b88f797d9e843df40d452c2c263e2132af72e991f2bc2a09",
-          "sha256": "be89ec9e06aadd3a9a62752cc45faf8797d0bcd3d069c7514ed15854135a253a",
-          "sha1": "0643213eb7b4e2ce2e0e09509fb90bba00aa1429",
-          "md5": "13cf033bfe17be1752fdf06e74cbbb72"
+          "name": "ElasticsInstrumentationExample-0.39.jar",
+          "url": "ElasticsInstrumentationExample-0.39.jar",
+          "size": 10394,
+          "sha512": "eb4f9dfa95f85a42d1b386d30f2d81cf8f88a0e06427a0de708206d237e2587a9ac9747814ff32614b499ce13169c7169af7ba81adbb9bcf77475df39abc9f2b",
+          "sha256": "6e2b376c248c65746cbd563b432d08f2e758034f5657470cd53bd8ece78aea35",
+          "sha1": "3a2cd52e4882fa793a9c5f875263dd340dceaa47",
+          "md5": "938fef926be098e4efc82ee7eaab12a1"
         }
       ]
     }
