@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "co.elastic.android.gradle",
+    "module": "ElasticsInstrumentationExample",
+    "version": "0.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ElasticsInstrumentationExample-0.15.jar",
+          "url": "ElasticsInstrumentationExample-0.15.jar",
+          "size": 10483,
+          "sha512": "386b581a85c4198bdbd93c727745d605eb293e6fe2ae5c4343e63fdda27ca20917d178031abe4a58b88f797d9e843df40d452c2c263e2132af72e991f2bc2a09",
+          "sha256": "be89ec9e06aadd3a9a62752cc45faf8797d0bcd3d069c7514ed15854135a253a",
+          "sha1": "0643213eb7b4e2ce2e0e09509fb90bba00aa1429",
+          "md5": "13cf033bfe17be1752fdf06e74cbbb72"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ElasticsInstrumentationExample-0.15.jar",
+          "url": "ElasticsInstrumentationExample-0.15.jar",
+          "size": 10483,
+          "sha512": "386b581a85c4198bdbd93c727745d605eb293e6fe2ae5c4343e63fdda27ca20917d178031abe4a58b88f797d9e843df40d452c2c263e2132af72e991f2bc2a09",
+          "sha256": "be89ec9e06aadd3a9a62752cc45faf8797d0bcd3d069c7514ed15854135a253a",
+          "sha1": "0643213eb7b4e2ce2e0e09509fb90bba00aa1429",
+          "md5": "13cf033bfe17be1752fdf06e74cbbb72"
+        }
+      ]
+    }
+  ]
+}
