@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>co.elastic.android.gradle</groupId>
   <artifactId>co.elastic.android.gradle.gradle.plugin</artifactId>
-  <version>0.39</version>
+  <version>0.73</version>
   <packaging>pom</packaging>
   <dependencies>
     <dependency>
       <groupId>co.elastic.android.gradle</groupId>
       <artifactId>ElasticsInstrumentationExample</artifactId>
-      <version>0.39</version>
+      <version>0.73</version>
     </dependency>
   </dependencies>
 </project>
