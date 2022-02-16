@@ -19,7 +19,7 @@ class OkHttp3MethodAdapter(api: Int, methodVisitor: MethodVisitor?, access: Int,
         visitFieldInsn(Opcodes.GETFIELD, "okhttp3/OkHttpClient\$Builder", "networkInterceptors", "Ljava/util/List;")
         visitMethodInsn(
             INVOKESTATIC,
-            "io/github/yemyatthu1990/apm/instrumentations/okhttp3/OkHttpNetworkInstrumentTracer",
+            "io/github/yemyatthu1990/apm/instrumentation/OkHttpNetworkInstrumentTracer",
             "getInstrumentInterceptor",
             "()Lokhttp3/Interceptor;",
             false

@@ -28,14 +28,6 @@ abstract class ElasticClassVisitorFactory: AsmClassVisitorFactory<ElasticClassVi
     }
 
     override fun isInstrumentable(classData: ClassData): Boolean {
-        println("all the class: "+ classData.className)
         return InstrumentHelper.isInstrumentable(classData)
-//        listOfClassesInstrumentable.forEach {
-//            if (it.isInstrumentable(classData)) {
-//                currentInstrumentableClass = it
-//                return true
-//            }
-//        }
-//        return false
     }
 }
