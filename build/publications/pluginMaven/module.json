@@ -3,7 +3,7 @@
   "component": {
     "group": "co.elastic.android.gradle",
     "module": "ElasticsInstrumentationExample",
-    "version": "0.39",
+    "version": "0.104",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -27,13 +27,13 @@
       },
       "files": [
         {
-          "name": "ElasticsInstrumentationExample-0.39.jar",
-          "url": "ElasticsInstrumentationExample-0.39.jar",
-          "size": 10394,
-          "sha512": "eb4f9dfa95f85a42d1b386d30f2d81cf8f88a0e06427a0de708206d237e2587a9ac9747814ff32614b499ce13169c7169af7ba81adbb9bcf77475df39abc9f2b",
-          "sha256": "6e2b376c248c65746cbd563b432d08f2e758034f5657470cd53bd8ece78aea35",
-          "sha1": "3a2cd52e4882fa793a9c5f875263dd340dceaa47",
-          "md5": "938fef926be098e4efc82ee7eaab12a1"
+          "name": "ElasticsInstrumentationExample-0.104.jar",
+          "url": "ElasticsInstrumentationExample-0.104.jar",
+          "size": 13963,
+          "sha512": "7ccf931f9eeedecd52505c6be345273bde9c7d696541bb692948c874d178e4b2e1465d9d7e94342cd1cef785bbc6c14bf8e87091a4f31c6bcf8b317e039e712d",
+          "sha256": "b1f9c74600da47c135486c1e9380858ea058552d105eba83f8964d6a5cc5a265",
+          "sha1": "fc7e99af2300232360d7968bb5f9ee7800f0c8a5",
+          "md5": "a18fecd81bb494b1b0ec225ffa07e9cb"
         }
       ]
     },
@@ -66,13 +66,13 @@
       ],
       "files": [
         {
-          "name": "ElasticsInstrumentationExample-0.39.jar",
-          "url": "ElasticsInstrumentationExample-0.39.jar",
-          "size": 10394,
-          "sha512": "eb4f9dfa95f85a42d1b386d30f2d81cf8f88a0e06427a0de708206d237e2587a9ac9747814ff32614b499ce13169c7169af7ba81adbb9bcf77475df39abc9f2b",
-          "sha256": "6e2b376c248c65746cbd563b432d08f2e758034f5657470cd53bd8ece78aea35",
-          "sha1": "3a2cd52e4882fa793a9c5f875263dd340dceaa47",
-          "md5": "938fef926be098e4efc82ee7eaab12a1"
+          "name": "ElasticsInstrumentationExample-0.104.jar",
+          "url": "ElasticsInstrumentationExample-0.104.jar",
+          "size": 13963,
+          "sha512": "7ccf931f9eeedecd52505c6be345273bde9c7d696541bb692948c874d178e4b2e1465d9d7e94342cd1cef785bbc6c14bf8e87091a4f31c6bcf8b317e039e712d",
+          "sha256": "b1f9c74600da47c135486c1e9380858ea058552d105eba83f8964d6a5cc5a265",
+          "sha1": "fc7e99af2300232360d7968bb5f9ee7800f0c8a5",
+          "md5": "a18fecd81bb494b1b0ec225ffa07e9cb"
         }
       ]
     }

@@ -5,12 +5,13 @@ plugins {
 }
 
 group = "co.elastic.android.gradle"
-version = "0.39"
+version = "0.104"
 
 repositories {
     mavenCentral()
     google()
 }
+
 
 gradlePlugin{
     plugins{
@@ -19,6 +20,7 @@ gradlePlugin{
             implementationClass = "co.elastic.android.gradle.ElasticPlugin"
         }
     }
+
 }
 dependencies {
     implementation("com.android.tools.build:gradle:7.1.0")
